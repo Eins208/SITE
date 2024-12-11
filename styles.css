@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    padding: 50px;
+    min-height: calc(100vh - 60px); /* Учитываем высоту подвала */
+}
+
+.footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ширина на всю страницу */
+    height: 40px; /* Высота подвала */
+    background-color: white; /* Цвет фона */
+    color: rgb(17, 0, 255); /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    line-height: 60px; /* Вертикальное выравнивание текста */
+}
+.footer a {
+    color: rgb(0, 140, 255); /* Цвет ссылок */
+}
+.footer a:hover {
+    color: #2f00ff; /* Цвет ссылки при наведении */
+}
